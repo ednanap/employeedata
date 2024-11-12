@@ -2,23 +2,10 @@
 
 A Java Spring Boot RESTful web service that manages employee data. This application includes HTTP request handling, JSON data upload support, and unit tests, providing a reliable system for basic employee management operations.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
-This project involved proposing, developing, and testing a RESTful API using Java Spring Boot. It enables management of employee data by supporting HTTP requests and JSON data handling. The application also includes unit tests to ensure functionality and reliability. 
+This project involved proposing, developing, and testing a RESTful API using Java Spring Boot, designed to streamline employee data management through efficient handling of HTTP requests and JSON data. The API offers core CRUD operations, allowing seamless creation, retrieval, updating, and deletion of employee records. The application integrates exception handling to enhance robustness and includes a suite of unit tests that validate functionality and reliability. Additionally, it features data validation to ensure input integrity and leverages Spring Boot’s dependency injection for modular design, facilitating easier maintenance and scalability. Comprehensive API documentation was provided to support users in utilizing the endpoints effectively.
 
-The core functionalities include:
-- Retrieving a list of employees.
-- Adding new employees to the system.
 
 ## Features
 - **GET** all employees.
